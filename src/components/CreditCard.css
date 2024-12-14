@@ -1,0 +1,130 @@
+
+.credit-card-preview {
+  background-color: #0f1520 !important;
+  color: #8694a8 !important;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-bottom: -20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.credit-card-preview .card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.wifi{
+  width: 80px;
+  height: 60px;
+  transform: rotate(85deg);
+  margin-right: -30px;
+}
+.credit-card-preview .bank-name {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  margin-right: 20px;
+}
+
+.credit-card-preview .bank-type {
+  font-size: 1.5rem;
+  color: #8694a8;
+  margin-right: 20px;
+}
+
+.credit-card-preview .card-chip {
+  width: 3rem;
+  height: 2.25rem;
+  background-color: #c4c0b9;
+  border-radius: 0.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.credit-card-preview .card-number {
+  font-family: monospace;
+  font-size: 1.75rem;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.5rem;
+}
+
+.credit-card-preview .card-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.credit-card-preview .card-valid-thru {
+  font-size: 1.2rem;
+  color: #a0a0a0;
+  margin-bottom: 0.25rem;
+}
+.credit-card-preview .card-exp{
+  font-size: 1.2rem;
+}
+
+.credit-card-preview .card-holder-name {
+  font-family: monospace;
+  text-transform: uppercase;
+  font-size: 1.7rem;
+}
+
+.credit-card-preview .card-logo {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.credit-card-preview .card-logo-circle {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+
+.credit-card-preview .card-logo-circle:first-child {
+  background-color: #ff0000;
+}
+
+.credit-card-preview .card-logo-circle:last-child {
+  background-color: #ff8c00;
+  margin-left: -0.75rem;
+}
+
+.contactless-icon {
+  font-size: 1.5rem;
+  transform: rotate(90deg);
+}
+
+.form-container {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  margin: 20 1rem;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.button-add {
+  background-color: #6366f1 !important;
+  border-color: #6366f1 !important;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.button-add:hover {
+  background-color: #4f46e5 !important;
+}
+
+.button-clean {
+  background-color: #9ca3af  !important;
+  border-color: #9ca3af !important;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.button-clean:hover {
+  background-color: #6b7280 ;
+}
+
